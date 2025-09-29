@@ -16,6 +16,8 @@ Parameters:
 Notes:
     - Ensure the MySQL server has 'local_infile' enabled.
     - File paths must be accessible to the MySQL client executing this procedure.
+    - In MySQL, `LOAD DATA LOCAL INFILE` is often restricted inside stored procedures.
+      If the stored procedure does not work, run the `LOAD DATA` commands manually.
 
 Usage Example:
     CALL sp_build_silver_layer();
