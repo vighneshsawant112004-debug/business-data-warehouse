@@ -10,7 +10,7 @@ This project is designed as a **blueprint for companies and clients** who want t
 ## 🏗️ Data Architecture
 ### The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 <img width="1544" height="912" alt="Untitled design" src="https://github.com/user-attachments/assets/de5a2496-aeef-4398-80f3-2d52e5a7cd17" />
-## 🏗️ Data Warehouse Layers  
+ ## 🏗️ Data Warehouse Layers  
 
 1. **Bronze Layer**  
    - Stores raw data *as-is* from the source systems.  
